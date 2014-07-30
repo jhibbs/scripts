@@ -1,0 +1,11 @@
+alias ls='ls -lh --color=yes'
+alias du='du -h'
+alias df='df -h'
+alias lsd='ls | grep ^d'
+alias lsf='ls | grep ^[^d]'
+alias dutop='du -h | grep -e "^[^/]*/[^/]*$"'
+alias githubpxy='export https_proxy=http://linuxpd:linuxupd@10.5.5.182:8080/'
+alias resetpxy='export https_proxy=https://lrdpxyp01:8080/'
+
+alias Allclean='rm -rf 0/alpha1.gz probes Stiffener*  faceObj*;rm -rf 0.* [1-9]*'
+
